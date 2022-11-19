@@ -9,32 +9,45 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c0e039a635.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <section class="header">
-        <div class="container">
-            <img src="images/triptok.png">
-            <button type="button" class="login-btn">Login</button>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
         </div>
-        <h1>Travel Across The Globe</h1>
-        <p>Subscribe to Budget Backpackers</p>
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search Country or City">
-            <div class="input-group-append">
-                <button type="submit" class="input-group-text btn">Search</button>
-            </div>
+    </nav>
+    <section class="header">
+        <h1>Your Global Backpacking Database</h1>
+        <h2>Join the community today!</h2>
+        <button type="button" class="btn btn-outline-primary join-btn mt-3">Join for Free</button>
         </div>
     </section>
     <section class="features">
-        <h1>Featured Destinations</h1>
+        <h1>Featured Trips</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="feature-box">
                         <div class="feature-img">
-                            <img src="images/1.jpg">
+                            <img src="images/4.png">
                             <div class="price">
                                 <p>78$</p>
                             </div>
@@ -116,31 +129,115 @@
         </div>
     </section>
     <section class="gallery">
-        <h1>Travelling Gallery</h1>
-        <div class="container">
+        <h1>Explore The World</h1>
+        <div class="container max-width-80">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-4 col-md-3 col-xl-2">
                     <div class="gallery-box">
                         <img src="images/travel-1.jpg">
-                        <h4>Los Angeles</h4>
+                        <h4>Albania</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-4 col-md-3 col-xl-2">
                     <div class="gallery-box">
                         <img src="images/travel-2.jpg">
-                        <h4>Los Angeles</h4>
+                        <h4>Belize</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-4 col-md-3 col-xl-2">
                     <div class="gallery-box">
                         <img src="images/travel-3.jpg">
-                        <h4>Los Angeles</h4>
+                        <h4>Bosnia</h4>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-4 col-md-3 col-xl-2">
                     <div class="gallery-box">
                         <img src="images/travel-4.jpg">
-                        <h4>Los Angeles</h4>
+                        <h4>Croatia</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Ecuador</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Greece</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-1.jpg">
+                        <h4>Honduras</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-2.jpg">
+                        <h4>Guatemala</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-3.jpg">
+                        <h4>Mexico</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Panama</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Nicaragua</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Costa Rica</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-1.jpg">
+                        <h4>Peru</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-2.jpg">
+                        <h4>Galapagos</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-3.jpg">
+                        <h4>Bolivia</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Malaysia</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Serbia</h4>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-xl-2">
+                    <div class="gallery-box">
+                        <img src="images/travel-4.jpg">
+                        <h4>Montenegro</h4>
                     </div>
                 </div>
             </div>
@@ -167,18 +264,269 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="user-review">
-                    <p>Subscribe to Budget Backpackers to find more travel content and save on your future
+                        <p>Subscribe to Budget Backpackers to find more travel content and save on your future
                             trips. We have itineraries and guidebooks</p>
-                    <h5>Christian Panter</h5>
-                    <small>Los Angeles</small>
+                        <h5>Christian Panter</h5>
+                        <small>Los Angeles</small>
                     </div>
                     <img src="images/user1.jpg">
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="user-review">
+                        <p>Subscribe to Budget Backpackers to find more travel content and save on your future
+                            trips. We have itineraries and guidebooks</p>
+                        <h5>Christian Panter</h5>
+                        <small>Los Angeles</small>
+                    </div>
+                    <img src="images/user2.jpg">
+                </div>
+                <div class="col-md-4">
+                    <div class="user-review">
+                        <p>Subscribe to Budget Backpackers to find more travel content and save on your future
+                            trips. We have itineraries and guidebooks</p>
+                        <h5>Christian Panter</h5>
+                        <small>Los Angeles</small>
+                    </div>
+                    <img src="images/user3.jpg">
+                </div>
             </div>
         </div>
     </section>
+    <section class="join-us">
+        <div class="container">
+            <div class="row">
+            <!-- <div class="row col-sm-12"> -->
+                <div class="col col-md-6">
+                    <form class="" id="sign-up">
+                        <h2>Join Us Today</h2>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Password</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control"
+                                    aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                                <span id="passwordHelpInline" class="form-text">
+                                    Must be 8-20 characters long.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="my-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I accept the terms & conditions</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="about-us">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eius reiciendis distinctio explicabo
+                    excepturi magnam pariatur nesciunt recusandae incidunt ab amet ullam labore, consectetur soluta
+                    laboriosam quidem unde placeat aut!
+                    Rerum, veniam at facere illum molestias asperiores deleniti neque quasi culpa? Inventore fugiat in
+                    praesentium minus blanditiis, cumque voluptas facilis aliquid eligendi, expedita aliquam enim
+                    numquam aperiam nobis, aut reiciendis!</p>
+                    <h3>Find Out More...</h3>
+                    <button type="button" class="btn btn-outline-primary join-btn mt-3">Mariam</button>
+                    <button type="button" class="btn btn-outline-primary join-btn mt-3">Budget Backpackers</button>
+                    <button type="button" class="btn btn-outline-primary join-btn mt-3">Christian</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/AltunHa.png" id="belize" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner2">
+        <div class="container">
+            <div class="row">
+            <!-- <div class="row col-sm-12"> -->
+                <div class="col col-md-6">
+                    <form class="" id="sign-up2">
+                        <h2>Join Us Today</h2>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Password</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control"
+                                    aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                                <span id="passwordHelpInline" class="form-text">
+                                    Must be 8-20 characters long.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="my-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I accept the terms & conditions</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+<footer class="text-center text-lg-start text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: #172A3A;">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
 
 </body>
 

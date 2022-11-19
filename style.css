@@ -3,15 +3,68 @@
     padding: 0;
     margin: 0;
 }
+
+body section{
+    background-color: #172A3A;
+    color: #69D1C5;
+}
+/* ----------Navbar--------- */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: #69D1C5;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #69D1C5;
+}
+
+#mainNavbar .navbar-brand {
+    color: #69D1C5;
+    font-size: 1.5rem;
+}
+#headingGroup span {
+    color: #69D1C5;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgba(23, 42, 58, 0.95);
+    transition: background 500ms;
+}
+
+/* --------Features-------- */
+
+section .feature-box{
+    background-color: #004346;
+    color: #69D1C5;
+    transition: 0.5s;
+}
+section .feature-box:hover{
+    cursor: pointer;
+    transform: translateY(-5px)
+}
+
+section.gallery{
+    background-color: #172A3A;
+    color: #69D1C5;
+}
 .header{
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/banner1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/banner1.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 20px;
     text-align: center;
-    color: #fff;
+    color: #69D1C5;
 }
 .header img{
     width: 170px;
@@ -22,12 +75,27 @@
     width: 100px;
     padding: 8px 0;
     outline: none !important;
-    border: 2px solid #fff;
+    border: 2px solid #69D1C5;
     border-radius: 50px;
     background: transparent;
-    color: #fff;
+    color: #69D1C5;
     float: right;
 }
+section .join-btn{
+    color: #69D1C5;
+    border-color: #69D1C5;
+    border-radius: 10px 10px;
+    transition: 0.5s;
+    filter: drop-shadow(3px 3px 4px #172A3A);
+}
+section .join-btn:hover{
+    color: #172A3A;
+    background-color: #69D1C5;
+    border-color: #69D1C5;
+    border-radius: 10px 10px;
+    transform: translateY(-5px)
+}
+
 .header h1{
     padding-top: 260px;
     padding-bottom: 0;
@@ -36,30 +104,7 @@
 .header p{
     margin: 18px 0;
 }
-.input-group{
-    width: 90%;
-    max-width: 500px;
-    border-radius: 30px;
-    background: #fff;
-    margin: auto;
-    padding: 2px;
-}
-.form-control{
-    border: 0 !important;
-    border-radius: 30px !important;
-    margin: 2px;
-    box-shadow: none !important;
-}
-.input-group-text{
-    width: 100px;
-    height: 100%;
-    background-image: linear-gradient(#00ff7e,#1f3d90);
-    border: 0 !important;
-    color: #fff !important;
-    padding: 0 25px !important;
-    border-radius: 30px !important;
-    box-shadow: none !important;
-}
+
 /* -----------------features---------------- */
 .features{
     padding: 100px 0;
@@ -75,8 +120,8 @@ h1{
 {
     width: 50px;
     height: 50px;
-    background: #ff5722;
-    color: #fff;
+    background: #172A3A;
+    color: #69D1C5;
     font-weight: 600;
     border-radius: 50%;
     padding: 10px;
@@ -92,7 +137,7 @@ h1{
 .rating{
     padding: 3px;
     float: right;
-    background: #fff;
+    background: #004346;
     bottom: -1px;
     right: 0;
     position: absolute;
@@ -100,7 +145,7 @@ h1{
 .features .fas,.fa-regular,.fa-solid
 {
     font-size: 15px;
-    color: #ff5722;
+    color: #69D1C5;
 }
 .feature-details{
     padding: 20px;
@@ -118,12 +163,11 @@ h1{
 }
 .feature-box
 {
-    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
 .gallery{
-    padding: 100px 0;
+    padding: 50px 0;
     background: #efefef;
 }
 .gallery-box img{
@@ -150,9 +194,10 @@ h1{
     position: relative;
     margin-bottom: 30px;
 }
+/* ----------First Banner----------- */
 .banner{
     height: 80%;
-    background-image: url(images/banner2.jpg);
+    background-image: url(images/banner2.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -174,11 +219,40 @@ h1{
     color: #fff;
     margin-top: 20px;
 }
+/* ---------Second Banner---------- */
+.banner2{
+    height: 80%;
+    background-image: url(images/1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+.banner2-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
 .users-feedback{
     padding: 100px 0;
 }
 .user-review{
     text-align: center;
+    background-color: #004346;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
     padding-bottom: 50px;
 }
@@ -201,4 +275,49 @@ h1{
     font-family: sans-serif;
     left: 44%;
     top: -20px;
+}
+
+#about-us{
+    padding: 50px 0;
+}
+#about-us button{
+    margin: 0 5px;
+}
+
+
+#belize{
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+/* ----------Form--------- */
+
+#sign-up{
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #69D1C5;
+}
+#sign-up h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sign-up2{
+    background-color: #172A3A;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #69D1C5;
+}
+#sign-up2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+footer{
+    background-color: #172A3A;
 }
